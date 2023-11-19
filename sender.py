@@ -8,7 +8,7 @@ URL_API = "https://cubox.pro/c/api/v2"
 
 def cubox_concat_header():
     headers = {
-        "Authorization": f"{token}",
+        "Authorization": f"{token_cubox}",
         "Content-Type": "application/x-www-form-urlencoded"
     }
     return headers
